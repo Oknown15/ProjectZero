@@ -1,0 +1,56 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+
+body {
+  background-color: #FFDEAD !important;
+  
+}
+
+ul a{
+    margin: 50px;
+    text-decoration: none;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 700;
+    position: relative;
+    top: 20px;
+  }
+
+
+  .image{
+   margin: 0 auto;
+   width: 30px;
+   position: relative;
+   right: 20px;
+   bottom: 20px;
+  }
+
+  .Image2 {
+    width: 120px;
+    position: absolute;
+    left: 30px;
+    bottom: 470px;
+  }
+
+  @media screen and (max-width: 600px) {
+
+    #Navbar  a{
+      display: none;
+      position: relative;
+      right:  100px;
+    }
+
+    .image {
+      width: 30px;
+      position: absolute;
+      top: 40px;
+      left: 160px;
+    }
+
+    .Image2{
+      width: 100px;
+      position: absolute;
+      top: 0;
+      left: 10px;
+    }
+    
+  }

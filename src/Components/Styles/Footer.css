@@ -1,0 +1,65 @@
+.footertypo {
+    background-color: white;
+    text-align: left;
+    padding: 120px 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.bolder {
+    font-size: xx-large;
+    width: 430px;
+    position: relative;
+    bottom: 20px;
+    font-weight: bold;
+}
+
+.lighter 
+{
+    position: relative;
+    bottom: 30px;
+    width: 600px;
+}
+
+.grid-containers1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    position: absolute;
+    right:  0;
+    top: 1000px;
+}
+
+/* .firstOne {
+   
+} */
+
+.firstImg {
+    width: 250px;
+    height: 400px;
+    position: absolute;
+    bottom : -20px;
+    right: 280px;
+    border-radius: 5px;
+}
+
+.secondImg {
+    width: 180px;
+    height: 230px;
+    position: absolute;
+    bottom: -50px;
+    left: 50px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.thirdImg
+ {
+    width: 260px;
+    height: 220px;
+    position: absolute;
+    bottom: 190px;
+    right: 0;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+ }

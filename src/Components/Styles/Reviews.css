@@ -1,0 +1,140 @@
+.head {
+    background-color: #FFF8DC;
+    position: absolute;
+    top: 77pc;
+    width: 100% !important;
+    left: 0;
+}
+
+#headparagraph {
+    font-size: xx-large;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.grid-containers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 0.5fr));
+    gap: 20px;
+}
+
+.cardOne {
+    background-color: #fff;
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    height: 400px;
+    margin: 40px;
+}
+.text {
+    color: #fff !important;
+}
+
+.cardTwo {
+    background-color: purple;
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    height: 400px;
+    position: relative;
+    top: 41px;
+    right: 40px;
+    color: #fff;
+}
+
+.cardTwo li {
+    text-align: left;
+}
+
+#btnPlanOne {
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    padding: 10px;
+    text-transform: capitalize;
+    color: purple;
+    position: relative;
+    right: 70px;
+    top: 50px;
+    width: 130px;
+}
+
+.cardThree {
+    background-color: #fff;
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    height: 400px;
+    position: relative;
+    top: 45px;
+    right: 120px;
+}
+
+.cardThree li {
+    text-align: left;
+    color: purple;
+}
+
+#btnPlanThree {
+    border: none;
+    color: white;
+    background-color: purple;
+    padding: 10px;
+    border-radius: 20px;
+    width: 130px;
+    position: absolute;
+    bottom: 63px;
+    text-transform: capitalize;
+    left: 20px;
+}
+
+.firstText {
+    text-align: left;
+    color: purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    text-transform: capitalize;
+}
+
+.Price {
+    font-size: x-large;
+    color: purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: left;
+}
+
+.aboutPrice {
+    width: 350px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    color: purple;
+}
+
+.cardOne li {
+    margin: 10px;
+    text-align: left;
+    color: purple;
+}
+
+#btnPlan {
+    background-color: purple;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    width: 130px;
+    position: relative;
+    top: 13px;
+    right: 70px;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 600px) {
+    .head {
+        margin-top: 100px;
+    }
+}

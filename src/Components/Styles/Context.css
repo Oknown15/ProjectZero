@@ -1,0 +1,98 @@
+body{
+    --main-color : #808080;
+
+}
+
+h4 {
+    color: #696969;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    bottom: 360px;
+    left : 65px;
+    font-size: larger;
+}
+h3 {
+    text-transform: capitalize;
+}
+
+#txt{
+    position: absolute;
+    left: 53px;
+    width: 700px;
+    bottom: 230px;
+    font-size: 70px;
+    word-spacing: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.span {
+}
+
+span .secondOne {
+    position: relative;
+    right: 620px;
+    top: 130px;
+    font-size: 70px;
+    width: 800px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--main-color) !important;
+}
+
+.BusinessImage {
+    width: 40%;
+    position: absolute;
+    right: 0;
+    top: 60px;
+}
+
+#text {
+    width: 500px;
+    position: absolute;
+    left: 55px;
+    bottom: 190px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    div h4 {
+        position: absolute;
+        left: 10px;
+        width: 300px;
+        font-size: 13px;
+        top: 180px;
+        text-align: left;
+    }
+
+    span {
+        font-size: large;
+        position: absolute;
+    }
+    span #txt {
+       color:  #000;
+        position: absolute;
+        left: -393px;
+        top: 163px;
+        font-size: 30px;
+    }
+    span .secondOne {
+        position: relative;
+        right: 470px;
+        font-size: 20px;
+        top: 210px;
+
+    }
+
+    #text {
+        position: relative;
+        top: 260px;
+        left: -100px !important;
+        font-size: 13px;
+        width: 300px;
+        text-align: left;
+    }
+
+    .BusinessImage {
+        position: absolute;
+        top: 330px;
+        width: 200px;
+    }
+}
