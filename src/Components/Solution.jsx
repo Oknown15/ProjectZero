@@ -41,17 +41,18 @@ class Solution extends Component {
                     </div>
                 </div>
                <div className='design' style={{backgroundColor: "purple", height: 300, width: "400px", position: "absolute", top: 900, left: 50, transform: "skew(-200deg)", borderRadius: 20}}></div>
-               <div>
+               <div id='business'>
                 <img 
                 src={Business}
                 alt='Business image'
                 className='CardFourImage'/>
-
+<div className='review'>
 <h4 id='txtOne'>ipsumtua Lorem ipsum dolor sit amet </h4>
                <p id='textTwo'>Lorem ipsum dolor sit amet consectetur adipisicing e </p>
                <p id='textThree'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim laboriosam officia, neque velit eius veniam deserunt officiis sint, ipsa cum accusamus omnis. Sequi quia modi velit vel numquam magni laborum.</p>
-               <p id='textFour'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ea debitis perspiciatis! Impedit, dolore. Totam distinctio, earum repellat deleniti officia tempore sapiente quasi, blanditiis aliquam, est inventore! Nobis, corrupti iste.</p>
+               <p id='textFour'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ea debitis perspiciatis! Impedit, dolore. Totam distinctio, earum repellat deleniti officia tempore sapiente quasi, blanditiis aliquam, est inventore! Nobis</p>
                <button type='button' id='btn'>learn more</button>
+</div>
                </div>
             </div>
         );

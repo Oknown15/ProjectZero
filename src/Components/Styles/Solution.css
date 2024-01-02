@@ -9,7 +9,7 @@
     background-color: #f9f9f9;
     width: 100% !important;
     text-transform: capitalize;
-    height: 1000px;
+    height: 800px;
 }
 
 /* #firstCard {
@@ -117,10 +117,57 @@
     }
 
     .CardFourImage{
-        width: 10px;
+        width: 250px;
+        height: 210px;
+        position: absolute;
+        top: 1400px;
+        left:0;
+        padding: 10px;
+    }
+    .design {
+        position: absolute !important;
+        top: 1400px !important;
+        width: 240px !important;
+        height: 230px !important;
+        left: 10px !important;
     }
 
-    .design {
-        display: none;
+    #business{
+        /* background-color: #fff ; */
+        height: 300px;
     }
+
+
+   .review #txtOne{
+        position: absolute;
+        left: 0;
+        top: 1600px;
+        padding: 10px;
+        font-size: 14px;
+   }
+
+   .review #textTwo {
+    position: absolute;
+    left: 0;
+    top: 1620px;
+    padding: 10px;
+    width: 300px;
+
+   }
+
+   .review #textThree {
+    position: absolute;
+    left: 0;
+    top: 1700px;
+    width: 300px;
+    padding: 10px;
+   }
+
+   .review #textFour {
+    position: absolute;
+    left: 0;
+    top: 1810px;
+    padding: 10px;
+    width: 300px;
+   }
 }
